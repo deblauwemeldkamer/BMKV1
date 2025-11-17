@@ -53,6 +53,6 @@ Dit systeem is gebouwd voor realistische roleplay, optimale performance en makke
 ## 📁 Installatie
 
 1. **Download** de resource  
-   👉 https://github.com/ *jouw-repo-link*  
+   👉 [https://github.com/deblauwemeldkamer/BMKV1/tree/main] 
 
 2. Plaats de map in:  
