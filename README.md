@@ -1,58 +1,70 @@
-# 🚔 De Blauwe Meldkamer V1  
-Een modern *open-source* MEOS/GMS systeem voor FiveM Roleplay Servers
+# 🚔 MEOS / GMS Politie Systeem – Donkerblauw Professioneel
 
-![Banner](https://via.placeholder.com/1200x300?text=De+Blauwe+Meldkamer+V1)
-
----
-
-## 📖 Over het project
-**De Blauwe Meldkamer V1** is een lichtgewicht, modern en *lichtblauw-wit* politiebesturingssysteem voor FiveM.  
-Het biedt een snelle interface waarmee politieagenten **voertuigen** en **personen** kunnen opzoeken, volledig geïntegreerd met **ESX**.
-
-Dit systeem is gebouwd voor realistische roleplay, optimale performance en makkelijke uitbreidbaarheid.
+Een strak, modern en eenvoudig **GTA FiveM Roleplay MEOS/GMS systeem** met een professionele donkerblauwe stijl, wit gebroken achtergrond, unieke agent-logins en een beveiligd hoofdcommissaris-beheerpaneel.
 
 ---
 
-## ✨ Features
-
-### 🔍 Kenteken Zoeken
-- Voertuiginfo via ESX-database  
-- Eigenaar + Citizen ID  
-- Status: *Gestolen*, *Gezocht*, *Legaal*  
-- Notities toevoegen  
-
-### 🧍 Personen Zoeken
-- Naam / Geboortedatum / CitizenID / Telefoon  
-- Strafblad + notities  
-- Rijbewijsstatus  
-- Gekoppelde voertuigen  
-
-### 💡 Extra
-- Politierechten-check  
-- Responsive UI (mobiel & desktop)  
-- Modern lichtblauw-wit thema  
-- API-vriendelijke structuur  
-- Open-source & eenvoudig uit te breiden  
+## 🖼 Design & Look
+- Donkerblauwe hoofdthema (professionele politielook)  
+- Witte "broken-style" achtergrond  
+- Strak logo + modern lettertype  
+- Overzichtelijke, minimalistische UI  
+- Volledig responsive (mobiel & desktop)
 
 ---
 
-## 📦 Vereiste ESX Scripts
+## 🔐 Dubbele Loginstructuur
 
-| Functie | Script |
-|--------|--------|
-| Voertuiginformatie | `esx_vehicleshop` / `esx_advancedgarage` |
-| Persoonsinfo | `esx_identity` |
-| Boetes / geldzaken | `esx_billing` |
-| Licenties | `esx_license` |
-| Politiejobs | `esx_policejob` |
+### 👮 Agent Login
+Elke agent logt in met:
+- **Badgenummer**
+- **Pincode**
 
-> *Aanbevolen:* `oxmysql`, `esx_datastore`, `ox_lib`
+Deze gegevens worden centraal beheerd door de hoofdcommissaris.
+
+### 🏛 Hoofdcommissaris Login
+Beschikt over een apart beveiligd loginpaneel met beheerfuncties:
+- Agenten aanmaken  
+- Badgenummers beheren  
+- Pincodes instellen/wijzigen  
+- Accounts deactiveren  
+
+Hiermee behoudt de leiding volledige controle over toegang tot het GMS.
 
 ---
 
-## 📁 Installatie
+## 📊 Agent Dashboard
 
-1. **Download** de resource  
-   👉 [https://github.com/deblauwemeldkamer/BMKV1/tree/main] 
+Na inloggen krijgt de agent een modern en overzichtelijk dashboard met directe toegang tot:
 
-2. Plaats de map in:  
+### 🔍 Persoonscontrole
+Zoek personen op via de **FiveM MySQL (HeidiSQL) database**:  
+- Naam  
+- Citizen ID  
+- Geboortedatum  
+- Adres (indien gebruikt)  
+- Rijbewijzen / vergunningen  
+- Notities of strafblad  
+
+### 🚗 Voertuigcontrole
+Controleer voertuigen op basis van kenteken:  
+- Voertuigmodel  
+- Eigenaar + ID  
+- Status (legaal / gestolen / gezocht)  
+- Registratiegegevens  
+- Voertuiggeschiedenis (optioneel)
+
+---
+
+## ⚙️ Technische Functies
+- Volledige koppeling met FiveM **MySQL-database**  
+- Snelle API-communicatie  
+- Rollenstructuur: Agent & Hoofdcommissaris  
+- Gebruiksvriendelijke interface  
+- Makkelijk uit te breiden met extra modules (boetes, meldingen, incidenten, wapenregister)
+
+---
+
+## 📦 Installatie
+1. Download het project via GitHub.  
+2. Plaats de map in je FiveM resources folder:  
