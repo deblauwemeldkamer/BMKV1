@@ -1,4 +1,4 @@
-# 🚔 MEOS / GMS Politie Systeem – Donkerblauw Professioneel
+# 🚔 MEOS / De Blauwe Meldkamer V1
 
 Een strak, modern en eenvoudig **GTA FiveM Roleplay MEOS/GMS systeem** met een professionele donkerblauwe stijl, wit gebroken achtergrond, unieke agent-logins en een beveiligd hoofdcommissaris-beheerpaneel.
 
